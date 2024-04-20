@@ -255,6 +255,7 @@ body {
     grid-column-start: 1;
     width: 100px;
     height: 100px;
+    background-color: white;
     cursor: pointer;
     border: none;
     background: none;
