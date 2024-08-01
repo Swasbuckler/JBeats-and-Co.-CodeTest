@@ -1,5 +1,5 @@
 <p align="center">
-![Jbeatsclean github](https://github.com/user-attachments/assets/f9c00b0d-e187-4219-b6ce-d553cf094614)
-</p>
+  <img src="https://github.com/Swasbuckler/JBeats-and-Co.-Website/blob/main/Jbeatsclean.png?raw=true" width="150">
+</p> 
 
 This is a fun project I chose to do for my friends to further develop an inside joke of the JBeats company.
