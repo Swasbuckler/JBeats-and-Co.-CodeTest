@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JBeats and Co.</title>
+        <link rel="stylesheet" href="./style.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--This div element contains the canvas where the game runs-->
+        <div id="game">
+            <canvas id="canvas" oncontextmenu="return false;"></canvas>
+        </div>
+
+        <!--This div element contains the podium of the page-->
+        <div id="podium" class="container">
+            <div class="container_podium">
+                <div class="podium">
+                    <div class="roboto_bold podium_rank second">2</div>
+                </div>
+                <div class="podium">
+                    <a id="logo_link" href="webpage.html"><img id="logo" src="./Logo_Pictures/Jbeatsclean.png" alt="JBeats Logo"></a>
+                    <div class="roboto_bold podium_rank first">1</div>
+                </div>
+                <div class="podium">
+                    <div class="roboto_bold podium_rank third">3</div>
+                </div>
+            </div>
+            <div class="explore_text roboto">JBeats and Co. <br><br>The number 1 beat producing company. Click below to start exploring JBeats and Co.</div>
+        </div>
+
+        <!--This div element contains the text in the tutorial-->
+        <div class="info">
+            <div class="roboto tut_info" id="ballmove">Your mouse acts as a fan to<br>push the ball around</div>
+            <div class="roboto tut_info" id="triggers">&lt;&lt; &gt;&gt;<br>Push objects of the same<br>colour to each other</div>
+            <div class="tut_info" id="smash">
+                <div class="roboto">Sometimes you will need to smash through objects using your ball with enough speed</div>
+                <div class="click_arrow"></div>
+            </div>
+        </div>
+
+        <!--This div element contains the text that users see at the start-->
+        <div id="start">
+            <div class="click_text roboto">
+                Press <span style="color: aqua;">SHIFT</span> to access all of the webpages to skip to the website<br><br>
+                Use a <span style="color: yellow;">laptop and mouse</span> to enjoy this website fully<br><br>
+                Click the button below to start experiencing wonder<br>
+                Reload the webpage when encountering errors
+            </div>
+            <div class="click_arrow"></div>
+
+            <!--This div element contains the start button and the transition element-->
+            <div class="expansion">
+                <div id="circle" class="click_circle"></div>
+                <button class="button_trigger" onclick="expansion()">Start</button>
+            </div>
+        </div>
+
+        <!--This div element contains the navigation bar-->
+        <div id="navbar_container" class="nav_container"></div>
+        <div id="navbar_id" class="navbar">
+            <div class="roboto nav_logo">JBeats and Co.</div>
+            <ul class="links">
+                <li class="roboto" id="tutorial_level"><a href="./index.html">Play Tutorial Again</a></li>
+                <li class="roboto" id="gameplay_level"><a href="./game.html">Start the Game</a></li>
+                <li class="roboto" id="jbeats_web"><a href="./webpage.html">JBeats Website</a></li>
+                <li class="roboto" id="jbeats_alternative"><a href="./altpage.html">Alternative Website</a></li>
+            </ul>
+
+            <!--Below consists for the navigation bar for mobile sizes-->
+            <div id="dropdown_button" class="miniture" onclick="dropdown()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <ul id="dropdown_list" class="dropdown">
+            <li class="roboto" id="tutorial_level"><a href="./index.html">Play Tutorial Again</a></li>
+            <li class="roboto" id="gameplay_level"><a href="./game.html">Start the Game</a></li>
+            <li class="roboto" id="jbeats_web"><a href="./webpage.html">JBeats Home</a></li>
+            <li class="roboto" id="jbeats_alternative"><a href="./altpage.html">Alternative Home</a></li>
+        </ul>
+
+        <!--The javascript files used for this page-->
+        <script src="./triggerApp.js"></script> <!--This js file contains the trigger to start the tutorial and physics engine-->
+        <script src="./app.js"></script> <!--This js file contains the variables, classes and functions for the physics engine-->
+        <script src="./tutorial.js"></script> <!--This js file contains the objects and update loop for the tutorial-->
+        <script src="./nav.js"></script> <!--This js file contains the navigation bar logic-->
+    </body>
+</html>
