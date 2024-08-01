@@ -14,7 +14,7 @@ I have learnt many things throughout the process of doing this project, especial
 <br>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fd194015-e987-4fa8-93ef-46d8178f8f1b" width="751" alt="Website Image">
+  <img src="https://github.com/user-attachments/assets/fd194015-e987-4fa8-93ef-46d8178f8f1b" width="500" alt="Website Image">
 </p>
 
 The website is very simple that makes use of CSS animations for smooth movements of elements with JavaScript used when viewing the team members of JBeats and Co.
@@ -22,7 +22,7 @@ The website is very simple that makes use of CSS animations for smooth movements
 <br>
 
 <p align="center">
-  <img width="734" alt="Alternative Image" src="https://github.com/user-attachments/assets/c61ca340-3158-4614-9d30-9b0ae4909e0a">
+  <img src="https://github.com/user-attachments/assets/c61ca340-3158-4614-9d30-9b0ae4909e0a" width="500" alt="Alternative Image">
 </p>
 
 An alternative version of the website can be accessed to see other design choices that were considered.
@@ -30,7 +30,7 @@ An alternative version of the website can be accessed to see other design choice
 <br>
 
 <p align="center">
-  <img width="757" alt="Physics Engine Image" src="https://github.com/user-attachments/assets/b9a80688-14b2-4011-b2fb-c12b0714647a">
+  <img src="https://github.com/user-attachments/assets/b9a80688-14b2-4011-b2fb-c12b0714647a" width="500" alt="Physics Engine Image">
 </p>
 
 The physics engine can be played or skipped depending on your mood while going through the website.
