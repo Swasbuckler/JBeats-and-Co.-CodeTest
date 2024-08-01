@@ -27,8 +27,12 @@ The website is very simple that makes use of CSS animations for smooth movements
 
 An alternative version of the website can be accessed to see other design choices that were considered.
 
+<br>
+
 <p align="center">
   <img width="757" alt="Physics Engine Image" src="https://github.com/user-attachments/assets/b9a80688-14b2-4011-b2fb-c12b0714647a">
 </p>
 
-The physics engine can be played or skipped depending on your mood by going through the website.
+The physics engine can be played or skipped depending on your mood while going through the website.
+
+At the end of day, it was a fun project where I had learnt a lot. I hope you do enjoy the website!
